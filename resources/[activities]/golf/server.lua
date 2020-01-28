@@ -1,6 +1,0 @@
-RegisterServerEvent("golf:buy")
-AddEventHandler("golf:buy", function()
-    TriggerEvent("es:getPlayerFromId", source, function(user)
-			user.func.removeMoney(100)
-	end)
-end)
