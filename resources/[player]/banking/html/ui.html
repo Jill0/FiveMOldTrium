@@ -1,0 +1,75 @@
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+
+	<img id="cursor" src="cursor.png" height="26px">
+	<div class="full-screen">
+		<div class="bank-container">
+			<div class="header">
+				<img src="mb.png" class="logo" id="lg0">
+				<img src="fleeca.png" class="logo" id="lg1">
+				<img src="BankofLiberty.png" class="logo" id="lg2">
+				<img src="PacificStandardBank.png" class="logo" id="lg3">
+			</div>
+			<div class="header-message">
+				<center class="sans"><span class="titre">Bienvenue</span><span class="username"></span></center>
+			</div>
+			<div class="body home">
+				<div class="centered">
+					<a href="#" class="button sans btnDeposit">Faire un dépôt</a>
+					<a href="#" class="button sans btnWithdraw">Faire un retrait</a>
+					<a href="#" class="button sans btnTransfer">Faire un virement</a>
+					<a href="#" class="button sans btnQuick">Retrait express 100$</a>
+					<a href="#" class="button sans btnBalance">Mes informations bancaires</a>
+					<a href="#" class="button sans btnClose">Fermer</a>
+				</div>
+			</div>
+			<div class="body balance-container">
+				<div class="centered">
+					<div class="number-display"><p class="sans">Solde Actuel : &nbsp;<span class="currentBalance"></span></p><p class="sans">Num&eacute;ro de compte : &nbsp;<span class="numCompte"></span></p></div>
+					<a href="#" class="button sans btnHome">Retour</a>
+				</div>
+			</div>
+			<div class="body withdraw-container">
+				<div class="form">
+					<div class="notification"></div>
+					<form id="withdraw-form">
+              <input id="amount" type="text" placeholder="Montant" class="sans" required/><br>
+              <button type="submit" id="submit" class="submit sans">Retirer</button>
+          </form>
+				</div>
+				<div class="centered">
+						<a href="#" class="button sans btnHome">Retour</a>
+				</div>
+			</div>
+			<div class="body deposit-container">
+				<div class="form">
+					<form id="deposit-form">
+              <input id="amount" type="text" placeholder="Montant" class="sans" required/><br>
+              <button type="submit" id="submit" class="submit sans">Dépôt</button>
+          </form>
+				</div>
+				<div class="centered">
+						<a href="#" class="button sans btnHome">Retour</a>
+				</div>
+			</div>
+			<div class="body transfer-container">
+				<div class="form">
+					<form id="transfer-form">
+              <input id="numcompte" type="text" placeholder="Numéro de compte" class="sans" required/><br>
+              <input id="amount" type="text" placeholder="Montant (minimum 50$)" class="sans" required/><br>
+              <button type="submit" id="submit" class="submit sans">Valider le virement</button>
+          </form>
+				</div>
+				<div class="centered">
+						<a href="#" class="button sans btnHome">Retour</a>
+				</div>
+			</div>
+		</div>
+	</div>

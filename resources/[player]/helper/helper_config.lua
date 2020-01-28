@@ -1,0 +1,14 @@
+KEY = {
+	E = 51,			-- INPUT_CONTEXT
+	ENTER = 176,	-- INPUT_CELLPHONE_SELECT
+	ESC = 322, 		-- INPUT_REPLAY_TOGGLE_TIMELINE
+	LEFT = 174,		-- INPUT_CELLPHONE_LEFT
+	RIGHT = 175,	-- INPUT_CELLPHONE_RIGHT
+	F7 = 168 		-- INPUT_SELECT_CHARACTER_TREVOR
+}
+
+TXT = {
+	CONTROLS = '~INPUT_CONTEXT~ pour fermer\n~INPUT_CELLPHONE_LEFT~ ~INPUT_CELLPHONE_RIGHT~ pour faire défiler',
+	QUESTIONS = '~y~Merci de lire attentivement avant de poser des questions~w~',
+	PUSHTOTALK = 'Votre touche Push To Talk est ~INPUT_PUSH_TO_TALK~'
+}

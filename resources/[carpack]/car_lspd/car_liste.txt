@@ -1,0 +1,23 @@
+
+bulhway2 -- HWay Bullet
+bulpolice -- LSPD Bullet
+bulpolice3 -- FIB Bullet
+
+infhway   
+infpolice    LSPD Infernus
+infpolice2 -- FIB Infernus
+
+police9 -- LSPD Penacle
+police10 -- LSPD Jackal
+police11 -- LSPD Oracle XS
+police13 -- LSPD Radius
+police14 -- FIB Pony
+policet3 -- LSPD Pony
+
+
+
+/* pas touche
+coqhway2 -- lspd gyro inter
+coqpolice -- coquette lspd
+coqpolice2 -- bana coquette
+*/

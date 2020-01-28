@@ -1,0 +1,20 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>comico.ymap</Item>
+    <Item>hei_dt1_19_critical_0.ymap</Item>
+    <Item>hei_dt1_19_strm_0.ymap</Item>
+    <Item>hei_dt1_26_strm_0.ymap</Item>
+    <Item>hei_dt1_rd1_critical_1.ymap</Item>
+    <Item>hei_dt1_rd1_long_1.ymap</Item>
+    <Item>hei_dt1_rd1_strm_5.ymap</Item>
+    <Item>hei_dt1_rd1_strm_6.ymap</Item>
+    <Item>hei_dt1_rd1_strm_7.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+</CodeWalkerProject>

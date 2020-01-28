@@ -1,0 +1,206 @@
+.console {
+  background-color: rgba(255,86,60,0.3);
+  width: 500px;
+  min-height: 30px;
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 200px;
+}
+html {
+  overflow: hidden;
+}
+@font-face {
+  font-family: 'pricedown';
+  src: url(pricedown.ttf);
+}
+#cursor {
+    position: absolute;
+    z-index: 99999999;
+    display: none;
+}
+.sans {
+  font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4 {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 150;
+  width: 300px;
+  height: 200px;
+}
+#balance {
+  float:right;
+  font-family: pricedown;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  padding: 4px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 0;
+  margin-right: 6px;
+  padding: 0;
+}
+#add-balance {
+  float:right;
+  font-family: pricedown;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  padding: 4px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 0;
+  margin-right: 6px;
+  margin-top: 6px;
+  padding: 0;
+}
+#icon {
+  height: 21px;
+  width: auto;
+  margin-right: 10px;
+}
+.green {
+  color: rgb(0, 125, 0);
+  font-weight: bold;
+}
+.red {
+  color: rgb(255, 0, 0);
+}
+#pre {
+  font-size: 13px;
+  margin-right: 5px;
+}
+.balance {
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+}
+.transaction {
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+}
+.full-screen {
+  width: 100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+.bank-container {
+  width: 400px;
+  height: 400px;
+  background-color: #e6e6e6;
+  border: 3px solid #881111;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: none;
+  z-index: 9999999;
+}
+.header {
+  width:100%;
+  height: 100px;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header .logo {
+  width: auto;
+  height: 59px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-message{
+  color: #881111;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.body {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.centered {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  margin-left:auto;
+  margin-right: auto;
+}
+.button {
+  flex-grow: 1;
+  align-items: center;
+  height: 15px;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+  width: 60px;
+  background-image: linear-gradient(to bottom, #CCAAAA, #BBAAAA);
+  border-radius: 4px;
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 20px 10px 20px;
+  text-decoration: none;
+}
+.button:focus, .submit {outline:0;}
+.number-display {
+  flex-grow: 1;
+  align-items: center;
+  height: 70px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #BBAAAA, #FFEEEE);
+  border-radius: 4px;
+  color: #000000;
+  font-size: 13px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.number-display p {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+input[type=text], select, textarea {
+    width: 240px;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    resize: vertical;
+    margin-left: 80px;
+}
+input[type=submit], .submit {
+  height: 15px;
+  text-align: center;
+  width: 240px;
+  background-image: linear-gradient(to bottom, #CCAAAA, #BBAAAA);
+  border-radius: 4px;
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 20px 25px 20px;
+  text-decoration: none;
+  border: none;
+  margin-left: 80px;
+}
